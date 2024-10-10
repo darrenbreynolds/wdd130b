@@ -9,6 +9,9 @@ nav a{
     text-align: center;
     text-decoration: none;
 }
+#background{
+    background-color:#534629
+}
 #hero-msg a{
     color: #028f00;
 }
