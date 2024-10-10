@@ -13,7 +13,7 @@ nav a{
     color: #028f00;
 }
 nav a:hover{
-    background-color: aquamarine;
+    background-color: rgb(118, 224, 189);
     color: white;
 }
 .home-title{
