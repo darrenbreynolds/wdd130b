@@ -1,5 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
+
 body{
+    padding: 0;
+    margin: 0;
     background-color: #202020;
+    font-size: 22px;
+    font-family: "Arima", system-ui
+}
+#logo_link{
+    padding-top: 5px;
+}
+h2{
+    margin: 0;
 }
 header{
     background-color: #2a5329;
@@ -8,6 +23,7 @@ nav a{
     color: rgb(0, 102, 255);
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 #background{
     background-color:#534629
@@ -19,11 +35,8 @@ nav a:hover{
     background-color: rgb(118, 224, 189);
     color: white;
 }
-.home-title{
-    color: rgb(255, 255, 255);
-}
 h4{
-    color: rgb(90, 146, 0);
+    color: rgb(142, 230, 0);
 }
 .book{
     color: rgb(255, 252, 252);
@@ -31,9 +44,15 @@ h4{
     text-align: center;
     text-decoration: none;
 }
+.book,.join{
+    margin-top: 50px;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+}
 .join{
     color: rgb(0, 195, 255);
-    background-color: rgb(16, 95, 0);
+    background-color: rgb(30, 179, 0);
 }
 .book:hover{
     color: white;
@@ -44,15 +63,26 @@ h4{
     background-color: chocolate;
 }
 .msg h2{
-    color: rgb(28, 241, 0);
-}
+    color: rgb(25, 197, 2);
+    
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}        
 .msg p{
+    padding-bottom: 15px;
     color: white;
+    font-size: .8em;
 }
 .msg{
+    padding: 35px;
     background-color: rgb(58, 85, 136);
+    line-height: 1.5em;;
 }
 footer{
+    margin-top: 200px;
+    padding: 25px 50px;
+    padding-top: 15px;
     color: white;
     background-color: rgb(0, 109, 0);
 }
@@ -79,10 +109,10 @@ a{
 }
 #hero-msg h1{
     text-align: center;
-    color: rgb(0, 168, 50);
+    color: rgb(0, 143, 168);
 }
 #hero-msg h4{
-    color: rgb(67, 168, 0);
+    color: rgb(78, 196, 0);
     text-align: center;
 }
 .button-box{
@@ -90,7 +120,7 @@ a{
 }
 main{
     text-align: center;
-    color: #028f00;
+    color: #04f100;
 }
 section{
     text-align: center;
@@ -99,6 +129,7 @@ section{
     height: 725px;
 }
 .icon {
+    padding-top: 10px;
     width: 80px;
 }
 #hero-img{
@@ -106,4 +137,19 @@ section{
 }
 .logo{
     width: 80px;
+}
+.home-title{
+    margin-top: 10px;
+    color: #00fc93;
+    font-size: 2em;
+  font-family: "DynaPuff", system-ui;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px;
+}
+.card-image{
+    border: 10px solid rgb(100, 67, 0);
+}
+main, section, img{
+    box-sizing: border-box;
 }
