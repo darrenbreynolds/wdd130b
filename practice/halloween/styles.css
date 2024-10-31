@@ -10,9 +10,10 @@
 
 
 body{
-    background-color: rgb(1, 1, 27);
     text-align: center;
     margin: auto;
+    background-color: rgb(1, 1, 27);
+   
 }
 ul{
     margin: auto;
