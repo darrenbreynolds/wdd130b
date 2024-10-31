@@ -21,7 +21,7 @@ ul{
     font-size: 50px;
 }
 .pumpkin{
-    margin-left: 750px;
+    margin:auto;
     border: orangered solid 20px;
     background-color: rgb(148, 75, 49);
     width: 300px;
@@ -48,7 +48,7 @@ ul{
     border: double tomato 10px;
     background-color: rgb(116, 3, 3);
     width: 1000px;
-    margin-left: 400px;
+    margin: auto;
     border-radius: 500px;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -68,14 +68,14 @@ h1{
     font-family: "Rubik Wet Paint", system-ui;
     border: outset darkslateblue 20px;
     width: 1000px;
-    margin-left: 400px;
+    margin: auto;
 }
 .Skeletons{
     border: dashed gray 10px;
     background-color: rgb(53, 53, 53);
     width: 800px;
     border-radius: 30px;
-    margin-left: 500px;
+    margin: auto;
 }
 .Skeletons h2{
     font-family: "danfo";
