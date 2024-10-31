@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Danfo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+
+
+body{
+    background-color: rgb(1, 1, 27);
+    text-align: center;
+}
+ul{
+    color: white;
+    font-size: 50px;
+}
+.pumpkin{
+    margin-left: 750px;
+    border: orangered solid 20px;
+    background-color: rgb(148, 75, 49);
+    width: 300px;
+    height: 300px;
+    border-radius: 10000px
+
+}
+.pumpkin h2{
+
+    color: orange;
+    font-size: 40px;
+  font-family: "Kablammo", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 0;
+}
+
+.pumpkin p{
+    color: rgb(240, 187, 90);
+}
+.bats{
+    border: double tomato 10px;
+    background-color: rgb(116, 3, 3);
+    width: 1000px;
+    border-radius: 500px;
+    margin-left: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.bats h2{
+    color: crimson;
+    font-size: 30px;
+    font-family: "DynaPuff", system-ui;
+}
+.bats p{
+    color: rgb(197, 95, 95);
+}
+h1{
+    background-color: rgb(119, 115, 115);
+    font-size: 100px;
+    color: chocolate;
+    font-family: "Rubik Wet Paint", system-ui;
+    border: outset darkslateblue 20px;
+    width: 1000px;
+    margin-left: 400px;
+}
+.Skeletons{
+    border: dashed gray 10px;
+    background-color: rgb(53, 53, 53);
+    width: 800px;
+    border-radius: 30px;
+    margin-left: 500px;
+}
+.Skeletons h2{
+    font-family: "danfo";
+    color: white;
+    font-size: 50px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "ELSH" 0;
+}
+.Skeletons{
+    color: aliceblue;
+}
+img{
+    width:1000px
+}
