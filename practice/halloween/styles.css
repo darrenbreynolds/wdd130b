@@ -8,9 +8,13 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
 
 
+
 body{
     background-color: rgb(1, 1, 27);
     text-align: center;
+    display: grid;
+    grid-template-columns: 1fr
+
 }
 ul{
     color: white;
