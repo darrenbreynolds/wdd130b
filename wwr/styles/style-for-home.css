@@ -16,6 +16,10 @@ body{
     font-size: 22px;
     font-family: "Arima", system-ui
 }
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(10 1fr );
+}
 #logo_link{
     padding-top: 5px;
     justify-self: center;
