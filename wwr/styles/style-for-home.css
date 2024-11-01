@@ -164,9 +164,6 @@ section{
     font-size: 2em;
   font-family: "DynaPuff", system-ui;
 }
-.card-image, .mountains{
-    width: 100%;
-}
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px;
 }
