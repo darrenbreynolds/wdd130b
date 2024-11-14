@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+sup{
+    vertical-align: super;
+
+}
+.wrapper{
+    display: grid;
+    grid-template-rows: 207px, 310px, 95px;
+    text-align: center;
+    margin: 10px;
+    height: 620px;
+    width:320px;
+    overflow: hidden;
+    background-color: white;
+    border: 2px, black, solid;
+    border-radius: 20px
+    
+}
+img{
+    width: 100%;;
+}
+.sub_top{
+    color: rgb(85, 85, 248);
+}
+header{
+    font-size: 30px;
+}
+footer{
+    color: rgb(255, 255, 255);
+    background-color: rgb(77, 75, 165);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+</style>
+<body>
+    <div class="wrapper">
+        <img src="w09_ice_img.jpg" alt="picture of a city">
+        <p class="sub_top"><b>3 weeks ago</b></p>
+        <header><b>Post Three</b></header>
+        <p class="sub_bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> 
+            Etiam consectetur enim sit amet sapien sodales, vitae aliquet sem malesuada.<br>
+            Aliquam a enim eu ligula sodales convallis sed ac lorem.<br>
+            Quisque ligula nulla, mattis non massa vel,</p>
+        <footer>
+            <p>5<sup>m</sup><br>READ</p>
+            <p>2031<br>views</p>
+            <p>15<br>comments</p>
+        </footer>
+      </div>
+
+</body>
+</html>
