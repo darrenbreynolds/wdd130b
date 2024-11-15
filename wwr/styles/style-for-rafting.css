@@ -209,6 +209,24 @@ main, section, img{
     padding: 35px;
     box-shadow: 5px 5px 10px #0084ff;
 }
+.title{
+    color:#00fc93
+}
+.p1,.p2,.p3{
+    color: #0084ff;
+}
+.river1{
+    width: 300px;
+}
+.river1,.river3,.river2{
+    float:left;
+    height: 300px;
+    border-radius: 20px;
+}
+.river3{
+    width: 300px;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
