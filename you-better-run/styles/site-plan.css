@@ -13,7 +13,7 @@ Fonts are separated by a | */
   --primary-color: #1b1a1f   ;
   --secondary-color: #ffb662 ;
   --accent1-color: #9c4098;
-  --accent2-color: rgb(255, 0, 140);
+  --accent2-color: rgb(255, 109, 109);
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Unlock", serif;
@@ -23,11 +23,11 @@ Fonts are separated by a | */
   --headline-color-on-white: #af49aa;  /* headlines on a white background */ 
   --headline-color-on-color:  #c164ff; /* headlines on a colored background */ 
   --paragraph-color-on-white: #94398c; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: rgb(255, 208, 0); /* paragraph text on a colored background */ 
+  --paragraph-color-on-color: rgb(255, 98, 98); /* paragraph text on a colored background */ 
   --paragraph-background-color: #7d2d80  ;
   --nav-link-color: #9900ff;
   --nav-background-color: #ffcc00;
-  --nav-hover-link-color: rgb(255, 0, 234);
+  --nav-hover-link-color: rgb(255, 69, 69);
   --nav-hover-background-color: #080708;
 }
 
