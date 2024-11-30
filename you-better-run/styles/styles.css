@@ -52,7 +52,7 @@ nav a:hover{
     left: 40%;
     background: linear-gradient(to right, #a621f3, #e1a051, #8c6c3c );
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    background-clip: text;
     grid-column: 2/3;
     grid-row: 3/4;
     margin-top: 100px;
@@ -69,7 +69,7 @@ nav a:hover{
     justify-self: center;
     background: linear-gradient(to bottom right, #a621f3, #e1a051, #8c6c3c );
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    background-clip: text;
     grid-column: 2/3;
     grid-row: 5/5;
     margin-top: -100px;
