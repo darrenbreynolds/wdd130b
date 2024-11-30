@@ -81,11 +81,9 @@ nav a:hover{
 }
 .imgtwo{
     margin-right: 10px;
-    margin-left: -230px;
     width: 300px;
     margin-top: 150px;
     float: inline-start
-
 }
 
 footer{
@@ -114,7 +112,7 @@ footer a:hover{
     background-color: #a621f3;
 }
 .sub{
-    margin-top: 300px;
+    margin-top: 250px;
 }
 .twosub{
 
