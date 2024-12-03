@@ -41,6 +41,7 @@ nav a:hover{
 }
 #hero-img{
     width: 100%;
+
 }
 .hero-box{
     grid-column:1/4;
@@ -77,23 +78,32 @@ nav a:hover{
     grid-row: 5/5;
     margin-top: -100px;
 }
-.oneimg{
-    margin-right: 10px;
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr,2fr;
+    margin-top:100px
+}
+
+.oneimg,.imgtwo{
+    grid-column: 1;
+    width: 250px;
+    float: left;
     margin-top: 100px;
-    float: inline-start
 }
-.imgtwo{
-    margin-right: 10px;
-    width: 300px;
-    margin-top: 150px;
-    float: inline-start
+
+.sub,.twosub{
+    grid-column: 2;
+    
 }
+
+
+
 
 footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 500px;
+    margin-top: 1000px;
     padding: 25px 50px;
     padding-top: 15px;
     color:#a621f3;
@@ -113,11 +123,4 @@ footer a{
 footer a:hover{
     color:#e1a051;
     background-color: #a621f3;
-}
-.sub{
-    margin-top: 250px;
-}
-.twosub{
-
-    margin-top: 480px;
 }
