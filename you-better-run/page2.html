@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="wrapper2">
     <header>
     
         <a id="logo_link" href="index.html">
@@ -19,30 +20,68 @@
             <a href="site_plan2.html">Site Plan</a>
         </nav>
     </header> 
-    <h2 class="top">how to prepare for a race</h2>
-    <div class="grid2">
+    <h2 class="top">how to prepare for a race:</h2>
         <p class="item1">
         The day before you should be drinking a ton of water, and the night before you should eat a lot of carbs. Get plenty of rest.
         The day of, remeber to bring sunscreen if its gonna be hot I made that mistake once, I still have the tan lines to prove it. Now if your race is in the morning, have an extremely light breakfast if in the afternoon keep it light but not crazy light. If your race is in the afternoon again light lunch, an hour before the race eat some kind of energy bar and then nothing else till the race is over, then stop drinking water 30-20 minutes before. Also make sure you use the restroom before the race as well. 
         </p>
-        <p class="item2">
-        Breathing If you want to good breathing do it through your nose and then out through your mouth research shows that breathing through your nose brings more oxygen and moisture,
+       
+        <button type="button" class="collapsible">Breathing</button> 
+        <p class="content">If you want to good breathing do it through your nose and then out through your mouth research shows that breathing through your nose brings more oxygen and moisture,
         </p>
-        <p class="item3">
-        800 This race is gonna suck but you're gonna be pushing as hard as you can the entire time, when you hit the second lap think of it as another lap then give it your all in the last 150 meters.
+    
+        <button type="button" class="collapsible">800</button>
+        <p class="content">
+        This race is gonna suck but you're gonna be pushing as hard as you can the entire time, when you hit the second lap think of it as another lap then give it your all in the last 150 meters.
         </p>
-        <p class="item4">
-        Mile Get out hard for the first 200 then settle into your pace, mentally and physically go faster each lap cause this will help you get consistent times on your quarter mile which is what people call their splits.
+       
+        
+        <button type="button" class="collapsible">Mile</button>
+        <p class="content">
+        Get out hard for the first 200 then settle into your pace, mentally and physically go faster each lap cause this will help you get consistent times on your quarter mile which is what people call their splits.
         </p>
-        <p class="item5">
-        5k During the race, get out hard don’t sprint but it should be pushing it, once like the first 200 is done you should start slowing down and then get into your pace,
+        
+        
+        <button type="button" class="collapsible">5K</button>
+        <p class="content">
+        During the race, get out hard don’t sprint but it should be pushing it, once like the first 200 is done you should start slowing down and then get into your pace,
         </p>
-        <p class="item6">
-        After the race Get lots of water and don’t immediately sit down, if you do your body will get sore quickly and it will suck to get up, drink lots of water and do a cool down run, this should be at a relaxed pace and should be half a mile to a mile. Make sure to stretch as well.
-        </p>
+        
+        <div class="item6">
+        <p class="heading">After race:</p><p>After the race Get lots of water and don’t immediately sit down, if you do your body will get sore quickly and it will suck to get up, drink lots of water and do a cool down run, this should be at a relaxed pace and should be half a mile to a mile. 
+            Make sure to stretch as well.</p>
+        </div>
     </div>
-    <img class="img0" src="styles/IMG_8783.jpg" alt="someone finishnig a race">
-    <img class="img01" src="styles/IMG_2304.JPG" alt="a real bad sunburn" height="400px">
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;            
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                  content.style.display = "none";
+                } else {
+                  content.style.display = "block";
+                }
+              });
+            }
+            </script>
+    <div class="wrapper">
+        <div class="container2">
+            <img class="img3" src="styles/IMG_8783.jpg" alt="someone finishnig a race">
+            <div class="overlay2">
+            <div class="text2">My last race in the mile I got sub 5 my time was 4:56</div>
+            </div>
+          </div>
+    
+        <div class="wrapper">
+        <div class="container3">
+            <img class="img3" src="styles/IMG_2304.JPG" alt="a real bad sunburn" height="400px">                <div class="overlay2">
+            <div class="text3">Remeber to wear sunscreen!!!!</div>
+            </div>
+          </div>
+    
     <footer>
         <p>You Better Run &copy; 20XX - Darren Reynolds</p>
         <P><a href="site_plan2.html">Site plan</a></P>
@@ -59,5 +98,6 @@
             </a>
             </div>
     </footer>
+</div>
 </body>
 </html>
