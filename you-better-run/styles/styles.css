@@ -285,7 +285,7 @@ p{
 }
 .text3{
     margin-left: 100px;
-    margin-top: 70px;
+    margin-top: 60px;
     color:  rgb(255, 98, 98);
     font-size: 20px;
     -webkit-transform: translate(-50%, -50%);
@@ -300,9 +300,11 @@ p{
     
 }   
 .img3{
+    margin-bottom: -10px;
     grid-column: 1;
   }
 .img01{
+    margin-bottom: -10px;
     grid-column: 2;
 }
 .container2, .container3{
