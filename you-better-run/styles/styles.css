@@ -194,6 +194,7 @@ p{
     text-align: center;
 }
 .top{
+    font-size: 50px;
     font-family: "Unlock";
     text-align: center;
     background: linear-gradient(to top, #b22dff, #ffa83e);
@@ -201,41 +202,49 @@ p{
     background-clip: text;
 }
 
-.content{
-    color: rgb(255, 231, 98);
-    margin: auto;
-    width: 370px;
-    padding: 0 18px;
-    padding-bottom: 18px;
-    display: none;
-    overflow: hidden;
-    background-color: #7a007a; 
-    margin-top: -50px;
-}
 .collapsible {
     font-family: "Unlock";
-    margin: auto;
-    margin: 50px;
-  background-color: #8c3394;
-  color: rgb(255, 241, 112);
-  cursor: pointer;
-  padding: 18px;
-  width: 500px;
-  border-radius: 50px;
-  border: double 20px, rgb(255, 232, 101);
-  outline: none;
-  font-size: 40px;
-  font: bold;
+    background-color: #a429bd;
+    color: rgb(255, 224, 87);
+    cursor: pointer;
+    padding: 18px;
+    width: 500px;
+    border: double 20px rgb(255, 224, 87);
+    border-radius: 40px;
+    text-align: left;
+    outline: none;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
   
-}
-.active, .collapsible:hover {
-    color: #7a007a;
-    background-color: #cfd157;
-    border:double 20px, #7a007a; 
-}
+  .active, .collapsible:hover {
+    background-color: rgb(255, 224, 87);
+    color: #a429bd;
+    border: #a429bd double 20px;
+  }
+  
+  .content {
+    margin: auto;
+    margin-top: -20px;
+    width: 390px;
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #a429bd;
+    color: rgb(255, 224, 87);
+    padding-bottom: 18px;
+  }
+
 .heading{
     font-family: "Unlock";
     font-size: 40px;
+    font-family: "Unlock";
+    text-align: center;
+    background: linear-gradient(to top, #b22dff, #ffa83e);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
 }
 .container2 {
     width: 400px;
@@ -251,11 +260,7 @@ p{
     transition: .5s ease;
     margin-bottom: 50px;
   }
-  .img3{
-    display: block;
-    width: 100%;
-    height: auto;
-  }
+ 
 .container2:hover .overlay2 {
     bottom: 0;
     height: 150px;
@@ -288,6 +293,21 @@ p{
     transform: translate(-50%, -50%);
     text-align: center;
   }
+.grid2{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}   
+.img3{
+    grid-column: 1;
+  }
+.img01{
+    grid-column: 2;
+}
+.container2, .container3{
+    margin-left: 200px;
+}
 /* footer  */
 footer{
     display: flex;
