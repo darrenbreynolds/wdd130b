@@ -55,14 +55,14 @@ nav a:hover{
     top: 40%;
     left: 40%;
     background: linear-gradient(to right, #a621f3, #e1a051, #8c6c3c );
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color:transparent;
     background-clip: text;
     grid-column: 2/3;
     grid-row: 3/4;
     margin-top: 100px;
+    z-index: 2;
 }
 .title0{
-    color:#1c1c24;
     background-color:#1c1c24;
     grid-column: 2/3;
     grid-row: 3/5;
@@ -81,7 +81,6 @@ nav a:hover{
 }
 .wrapper{
     display: grid;
-    grid-template-columns: 1fr,2fr;
     margin-top:100px
 }
 
